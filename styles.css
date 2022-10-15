@@ -1,0 +1,65 @@
+header{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.titulo{
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor__main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+}
+.reloj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 10rem;
+    border: 5px solid red;
+    border-radius: 30px;
+}
+.hora{
+    display: flex;
+    color:white;
+    background-color: rgb(64, 64, 64);
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    border-radius: 10px;
+    border: 4px solid white;
+
+}
+.minutos{
+    display: flex;
+    color:white;
+    background-color: rgb(64, 64, 64);
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    border-radius: 10px;
+    border: 4px solid white;
+}
+.segundos{
+    display: flex;
+    color:white;
+    background-color: rgb(64, 64, 64);
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    border-radius: 10px;
+    border: 4px solid white;
+}
